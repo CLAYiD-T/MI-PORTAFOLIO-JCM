@@ -1,0 +1,371 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=BIZ+UDGothic&family=Barlow+Semi+Condensed:ital,wght@0,400;1,300&family=Dancing+Script&family=Rajdhani&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=BIZ+UDGothic&family=Barlow+Semi+Condensed:ital,wght@0,400;1,300&family=Dancing+Script&family=Noto+Sans+JP:wght@100&family=Rajdhani&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=BIZ+UDGothic&family=Barlow+Semi+Condensed:ital,wght@0,400;1,300&family=Cormorant+Upright:wght@300&family=Dancing+Script&family=Noto+Sans+JP:wght@100&family=Rajdhani&display=swap');
+body{
+    font: 15px Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#ffffff;
+    }
+    
+    /* Estilos globales */
+.contenedor{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+    
+ ul{
+ margin:0;
+   padding:0;
+}
+    
+  /* Encabezado **/
+header{
+  background: #000000;
+ color:#ffffff;
+ padding-top:30px;
+min-height:70px;
+ border-bottom:#a09f9f 10px solid;
+}
+    
+header a{
+ color:#fffeff;
+ text-decoration:none;
+ text-transform: uppercase;
+ font-size:16px;
+ }
+   
+header #marca h1{
+    margin:0;
+    color: #a9a9ad;
+} 
+  
+header nav{
+    float:right;
+    margin-top:10px;
+}
+  
+header .resaltado, header .actual a{
+    color:#e3dfdf;
+    font-weight:bold;
+} 
+   header a:hover{
+    color:#a08aa9;
+    font-weight:bold;
+}
+
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-image: url(imagen/fotp.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+}
+.hero .contenedor{
+    display: grid;
+    height: 100vh;
+    align-content: center;
+    width: 550px;
+}
+.hero .contenido {
+    text-align: center;
+    color: var(--claro);
+    
+}
+.titulo{
+    font-size: 70px;
+    letter-spacing: 5px;
+    color: #1e1e1e; 
+    border-radius: 8px;
+    font-family: 'Dancing Script', cursive;   
+}
+
+
+
+.forma{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto; 
+       
+}
+.forma img {
+    width: 270px;
+    height: 280px;
+    border-radius: 50%;   
+}
+
+
+
+.sub-titulo{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;   
+flex-direction: row;
+color:#070707;
+text-align: center;
+font-family: 'Noto Sans JP', sans-serif;
+letter-spacing: 3px; 
+ padding-top: 15px; 
+    
+}
+h2{
+    
+width: 50%;
+border-bottom: 1px solid #60536a;
+}
+
+
+
+
+.cuadra{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+}
+
+.cuadro1{
+    width:300px ;
+    height: 500px;
+    background-color:#0e0e0e ;
+    color: #edeaf0;
+    
+
+}
+h3{ 
+   
+    margin-left: 20px;
+    font-size: 14px;
+}
+h5{
+    font-family: 'Cormorant Upright', serif;
+    margin-left: 20px;
+    font-size: 25px;
+    
+}
+
+ .descripcion{
+    padding-top: none;
+    color: #181718;
+    margin-left: 15px;    
+    font-size: 12px;
+    text-align: justify;
+}
+.descripcion1{
+    color: #b8b4b4;
+    margin-left: 15px; 
+    font-size: 13px;
+    
+}
+
+.cuadro2{
+    width:600px ;
+    height: 500px;
+    margin-bottom: 20px; 
+ 
+}
+ 
+h5{
+   margin-right: 20px;
+    
+}
+.sociales ul li span{
+    display: none;
+}
+.sociales ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    flex:1 0 auto;
+}
+
+.contenedor-habilidades{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.icono1 img{
+    width: 60px;
+    padding-bottom: 20px;
+
+}
+
+.titulo-trabajo{
+    color: #947c99;
+    text-align: center;  
+    border-bottom: 3px solid #aca9a9;
+}
+
+
+.trabajo{
+    color: #050505;
+    display: flex;
+    width: 200px;
+    /* background: rgb(65, 58, 58); */
+    margin: 10px;
+    text-align: justify;
+    padding: 60px;
+    padding-top: 20px;
+    border: 1px solid black;
+}
+
+.parrafo-edit{
+    padding: 15px 5px;
+}
+
+ul{
+    margin: 10px 5px;
+    list-style: circle;
+    padding-top: 30px;
+    
+}
+li{
+    padding: 5px 5px;
+}
+.titulo-trabajo, img{
+    padding: 10px;
+}
+
+
+
+.venta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 1rem;
+    gap:10px ;
+   
+    margin: 50px auto;
+    padding: 30px;
+    justify-items: center;
+}
+.venta img {
+    width:200px ;
+    height:300px ;
+
+}
+
+.contenedores{  
+    width: 400px; 
+    height:420px ;  
+    /* background: linear-gradient(#fffefe, #ffffff); */
+    border-radius: 0px 20px 0px 20px;  
+    
+}
+.contenedores h1{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 20px;
+    color: #6d6d86;
+    text-align: center;
+    
+   }
+   .contenedores .elemento label{
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    
+   }
+   .contenedores .elemento input{
+    width: 90%;
+    padding: 10px 0;
+    margin-left: 25px;
+    color: rgb(18, 18, 18);
+    background: transparent; 
+    border: 2px solid  black;
+    margin-bottom: 10px;
+   }
+   .contenedores .elemento input[type="submit"]{
+    background-color: #9c99a0;
+    border:none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 20px;
+    width: 200px;
+   
+}
+.textos1{  
+    width: 400px;
+    height: 400px;
+    margin-bottom: 100px;
+   
+}
+.word1{
+    color: #2d2d2e;
+    text-align: justify;
+    
+}
+h6{
+    text-align: center;
+    font-size: 15px;
+    background: #000000;
+    margin-top: 10px;
+    color: white;
+    height: 20px;
+
+}
+
+.hero2 {
+    display: flex;
+    justify-content: center;
+    background-image: url(imagen/bannner.jpg);
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-size: cover;
+
+
+}
+.hero2 .contenedor2{
+    display: grid;
+    height: 50vh;
+    align-content: center;
+    width: 550px;
+}
+.hero2 .contenido2 {
+    text-align: center;
+    color: var(--claro);
+    
+    
+}
+.subtitulo2{
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #dedcdc; 
+    border-radius: 8px;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+
+    
+}
+footer{
+    width:100% ;
+    height: 50px;
+    background: #000000;
+    color: #e3dfdf;
+    text-align: center;
+   
+}
+
